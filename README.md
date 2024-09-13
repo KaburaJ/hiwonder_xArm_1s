@@ -7,21 +7,20 @@ For Ubuntu or Raspberry Pi running on Ubuntu OS users:
 ## Requirements
 `git clone https://github.com/KaburaJ/hiwonder_xArm_1s.git`
 
-* Something to note is that if you encounter errors while trying to connect to the arm, try adding the following udev rule to `/etc/udev/rules.d/99-xarm.rules` using the command `sudo nano /etc/udev/rules.d/99-xarm.rules`:
+**Something to note is that if you encounter errors while trying to connect to the arm, try adding the following udev rule to `/etc/udev/rules.d/99-xarm.rules` using the command `sudo nano /etc/udev/rules.d/99-xarm.rules`:**
 ```
 SUBSYSTEM=="usb", ATTR{idVendor}=="0483", ATTR{idProduct}=="5750", MODE="0660", GROUP="plugdev"
 ```
-Then reload the rules with:
+**Then reload the rules with:**
 ```
 sudo udevadm control --reload-rules 
 sudo udevadm trigger
 ```
 
-Where you choose to add the rules above, please run the command below to add your root to the `plugdev` group.
+**Where you choose to add the rules above, please run the command below to add your root to the `plugdev` group.**
 `sudo usermod -aG plugdev $USER`
 
 These steps will allow users in the plugdev group to access the arm controller.
-*
 ## Packages
 | Name | Description | 
 |----------|----------|
