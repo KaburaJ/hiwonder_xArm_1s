@@ -32,10 +32,10 @@ These steps will allow users in the plugdev group to access the arm controller.
 1. Run `sudo -s` on your terminal. The assumption is that you've already installed ROS2.
 1. Run to install the required packages:
 ```
-$ sudo apt-get install libusb-1.0-0-dev libudev-dev
-$ pip install --upgrade setuptools
-$ pip install hidapi
-$ pip install xarm 
+sudo apt-get install libusb-1.0-0-dev libudev-dev
+pip install --upgrade setuptools
+pip install hidapi
+pip install xarm 
 ```
 1. Change directories to the location of the project you cloned above.
 1. Run `source /opt/ros/$DISTRO/setup.bash`. Remember to always do this whenever you open a new terminal.
@@ -45,6 +45,9 @@ $ pip install xarm
 
 In another terminal, repeat steps 1, 2 and 4 respectively before running:
 `$ ros2 launch learm_ros2 follower.launch.py`
+
+## Demo
+![image_alt](https://youtu.be/bHPxp2J4lWQ)
 
 
 
