@@ -47,7 +47,7 @@ In another terminal, repeat steps 1, 2 and 4 respectively before running:
 `$ ros2 launch learm_ros2 follower.launch.py`
 
 ## Demo
-![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=bHPxp2J4lWQ)
+Accessible here https://youtu.be/bHPxp2J4lWQ?si=cHmpUlG4LA_Bw6Jf
 
 
 
