@@ -8,6 +8,7 @@ The Hiwonder xArm 1s (found here https://www.hiwonder.com/products/xarm-1s?varia
 *This has been tested for Ubuntu or Raspberry Pi running on Ubuntu OS users*
 
 ---
+
 ## Requirements
 ```
 git clone https://github.com/KaburaJ/hiwonder_xArm_1s.git
@@ -29,7 +30,9 @@ sudo usermod -aG plugdev $USER
 ```
 
 These steps will allow users in the plugdev group to access the arm controller.
+
 ---
+
 ## Packages
 | Name | Description | 
 |----------|----------|
@@ -38,6 +41,7 @@ These steps will allow users in the plugdev group to access the arm controller.
 | learm_ros2_moveit_config   | MoveIt config files (WIP).  |
 
 ---
+
 ## Running
 1. Run `sudo -s` on your terminal. The assumption is that you've already installed ROS2.
 1. Run to install the required packages:
@@ -61,6 +65,7 @@ ros2 launch learm_ros2 follower.launch.py
 Use the joint state publisher interface to move the robot on rviz2 as well as the physical. You should get the response as in the video below.
 
 ---
+
 ## Demo
 
 Accessible here https://youtu.be/bHPxp2J4lWQ?si=cHmpUlG4LA_Bw6Jf
