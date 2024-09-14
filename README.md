@@ -10,7 +10,9 @@ How to run:
 For Ubuntu or Raspberry Pi running on Ubuntu OS users:
 
 ## Requirements
-```git clone https://github.com/KaburaJ/hiwonder_xArm_1s.git```
+```
+git clone https://github.com/KaburaJ/hiwonder_xArm_1s.git
+```
 
 **Something to note is that if you encounter errors while trying to connect to the arm, try adding the following udev rule to `/etc/udev/rules.d/99-xarm.rules` using the command `sudo nano /etc/udev/rules.d/99-xarm.rules`:**
 ```
@@ -23,7 +25,9 @@ sudo udevadm trigger
 ```
 
 **Where you choose to add the rules above, please run the command below to add your root to the `plugdev` group.**
-```sudo usermod -aG plugdev $USER```
+```
+sudo usermod -aG plugdev $USER
+```
 
 These steps will allow users in the plugdev group to access the arm controller.
 ## Packages
@@ -49,7 +53,9 @@ pip install xarm
 1. And, ```ros2 launch learm_ros2 follower.launch.py```. Make sure the robotic arm is plugged into a power source, turned on, and connected over USB. Then start this follower launch file.
 
 In another terminal, repeat steps 1, 2 and 4 respectively before running:
-```ros2 launch learm_ros2 follower.launch.py```
+```
+ros2 launch learm_ros2 follower.launch.py
+```
 
 Use the joint state publisher interface to move the robot on rviz2 as well as the physical. You should get the response as in the video below.
 
