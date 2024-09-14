@@ -60,7 +60,6 @@ ros2 launch learm_ros2 follower.launch.py
 Use the joint state publisher interface to move the robot on rviz2 as well as the physical. You should get the response as in the video below.
 
 ## Demo
-[![Accessible here](https://img.youtube.com/vi/bHPxp2J4lWQ/0.jpg)](https://youtu.be/bHPxp2J4lWQ?si=cHmpUlG4LA_Bw6Jf)
 
 Accessible here https://youtu.be/bHPxp2J4lWQ?si=cHmpUlG4LA_Bw6Jf
 
