@@ -4,8 +4,9 @@
 
 <br>
 The Hiwonder xArm 1s (found here https://www.hiwonder.com/products/xarm-1s?variant=32436121894999) is a 6 D.O.F Aluminium 0.9 kg robotic arm with Bluetooth and USB communication capabilities.
-
+<br>
 *This has been tested for Ubuntu or Raspberry Pi running on Ubuntu OS users*
+<br>
 
 ## Requirements
 ```
