@@ -1,13 +1,6 @@
 # hiwonder_xArm_1s
 
-<img src="https://github.com/KaburaJ/hiwonder_xArm_1s/blob/main/image.png" alt="xArm image" class="xarm-img">
-
-<style>
-  .xarm-img {
-    width: 500px;
-    height: 300px;
-  }
-</style>
+![alt text](https://github.com/KaburaJ/hiwonder_xArm_1s/blob/main/image.png)
 
 <br>
 The Hiwonder xArm 1s (found here https://www.hiwonder.com/products/xarm-1s?variant=32436121894999) is a 6 D.O.F Aluminium 0.9 kg robotic arm with Bluetooth and USB communication capabilities.
