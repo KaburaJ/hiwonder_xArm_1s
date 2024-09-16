@@ -3,12 +3,12 @@
     <link name="base_link">
         <visual>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/base.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/base.stl" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/base.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/base.stl" />
             </geometry>
         </collision>
         
@@ -21,12 +21,12 @@
     <link name="shoulder_link">
         <visual>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/shoulder.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/shoulder.stl" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/shoulder.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/shoulder.stl" />
             </geometry>
         </collision>
         
@@ -39,12 +39,12 @@
     <link name="humerus_link">
         <visual>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/humerus.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/humerus.stl" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/humerus.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/humerus.stl" />
             </geometry>
         </collision>
         
@@ -57,12 +57,12 @@
     <link name="forearm_link">
         <visual>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/forearm.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/forearm.stl" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/forearm.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/forearm.stl" />
             </geometry>
         </collision>
         
@@ -75,12 +75,12 @@
     <link name="wrist_link">
         <visual>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/wrist.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/wrist.stl" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/wrist.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/wrist.stl" />
             </geometry>
         </collision>
         
@@ -93,12 +93,12 @@
     <link name="hand_link">
         <visual>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/hand.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/hand.stl" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/hand.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/hand.stl" />
             </geometry>
         </collision>
         
@@ -111,12 +111,12 @@
     <link name="grip_left_link">
         <visual>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/carpal-left.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/carpal-left.stl" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/carpal-left.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/carpal-left.stl" />
             </geometry>
         </collision>
         
@@ -129,12 +129,12 @@
     <link name="grip_right_link">
         <visual>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/carpal-right.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/carpal-right.stl" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/carpal-right.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/carpal-right.stl" />
             </geometry>
         </collision>
         
@@ -147,12 +147,12 @@
     <link name="tendon_left_link">
         <visual>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/tendon.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/tendon.stl" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/tendon.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/tendon.stl" />
             </geometry>
         </collision>
         
@@ -165,12 +165,12 @@
     <link name="tendon_right_link">
         <visual>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/tendon.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/tendon.stl" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/tendon.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/tendon.stl" />
             </geometry>
         </collision>
         
@@ -183,12 +183,12 @@
     <link name="finger_left_link">
         <visual>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/finger.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/finger.stl" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/finger.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/finger.stl" />
             </geometry>
         </collision>
         
@@ -202,13 +202,13 @@
         <visual>
             <origin rpy="0 0 3.14159" />
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/finger.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/finger.stl" />
             </geometry>
         </visual>
         <collision>
             <origin rpy="0 0 3.14159" />
             <geometry>
-                <mesh filename="file:///home/andrewda/dev_ws/src/learm_ros2/meshes/finger.stl" />
+                <mesh filename="file:///home/fushion/Desktop/learm_ros2/src/learm_ros2_description/meshes/finger.stl" />
             </geometry>
         </collision>
         
@@ -244,7 +244,7 @@
         <child link="wrist_link" />
         <origin xyz="0 0 0.090" />
         <axis xyz="0 -1 0" />
-        <limit lower="-1.57" upper="1.57" effort="1000" velocity="0.5" />
+        <limit lower="1.57" upper="-1.57" effort="1000" velocity="0.5" />
     </joint>
     <joint name="wrist_roll" type="revolute">
         <parent link="wrist_link" />

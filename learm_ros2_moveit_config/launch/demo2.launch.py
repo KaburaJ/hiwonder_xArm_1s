@@ -53,6 +53,10 @@ def generate_launch_description():
             # condition=launch.conditions.IfCondition(
             #     "$(eval arg('moveit_controller_manager') == 'fake')")
         ),
+        # launch_ros.actions.Node(
+        #     package="learm_ros2_moveit_config",
+
+        # )
         launch_ros.actions.Node(
             package='joint_state_publisher_gui',
             executable='joint_state_publisher_gui',

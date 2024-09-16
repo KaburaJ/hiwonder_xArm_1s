@@ -6,7 +6,6 @@ import xarm
 import sys
 
 try:
-    # Use serial.Serial() instead of serial()
     # ser = serial.Serial(port="USB", baudrate=115200, timeout=10000)
     # print(ser)
     print("shtukaaaa")
@@ -22,12 +21,12 @@ print('Battery voltage in volts:', arm.getBatteryVoltage())
 # Initialize with invalid value so first received coordinate gets sent to robot
 # FUTURE: read the current robot position from controller and update memory state
 servos = {
-    "shoulder_pan": xarm.Servo(6, 500),
-    "shoulder_lift": xarm.Servo(5, 500),
-    "elbow": xarm.Servo(4, 500),
-    "wrist_flex": xarm.Servo(3, 500),
-    "wrist_roll": xarm.Servo(2, 500),
-    "grip_right": xarm.Servo(1, 500),  # Flipped in URDF (open is close)
+    "shoulder_pan": xarm.Servo(6, 0),
+    "shoulder_lift": xarm.Servo(5, 0),
+    "elbow": xarm.Servo(4, 0),
+    "wrist_flex": xarm.Servo(3, 0),
+    "wrist_roll": xarm.Servo(2, 0),
+    "grip_right": xarm.Servo(1, 0),  # Flipped in URDF (open is close)
 }
 
 def recv_sensorMsgs_jointState(jointState):
@@ -42,7 +41,7 @@ def recv_sensorMsgs_jointState(jointState):
 
         # Convert desired position to robot coordinates
         value = position  # radians [-1.57, 1.57]
-        value /= 1.57  # convert [-1, 1]
+        value /= 1.570  # convert [-1, 1]
         value *= 500  # convert [-500, 500]
         value += 500  # convert [0, 1000]
         value = int(value)  # truncate decimals so library operates correctly
